@@ -1,0 +1,307 @@
+2021.03.05:01:40:29.015: main Phoenix Miner 5.5c Windows/msvc - Release build
+2021.03.05:01:40:29.015: main Cmd line: -pool stratum+tcp://daggerhashimoto.hk.nicehash.com:3353 -wal 3NtMLaerK6FDgj4ib3Ho4xskhz3oEVZ5e9$0-YwadwCMfplWNvTfa1tKS6Q -proto 4 -nvidia -gpus 0 -wdog 0 -gbase 0 -stales 0 -mport 127.0.0.1:-4001 
+2021.03.05:01:40:29.064: main CUDA version: 11.0, CUDA runtime: 8.0
+2021.03.05:01:40:29.064: main Available GPUs for mining:
+2021.03.05:01:40:29.064: main GPU0: GeForce RTX 3080 (pcie 1), CUDA cap. 8.6, 10 GB VRAM, 68 CUs
+2021.03.05:01:40:29.070: main NVML library initialized
+2021.03.05:01:40:29.106: main Nvidia driver version: 461.40
+2021.03.05:01:40:29.202: main Eth: the pool list contains 1 pool (1 from command-line)
+2021.03.05:01:40:29.202: main Eth: primary pool: daggerhashimoto.hk.nicehash.com:3353
+2021.03.05:01:40:29.202: main Starting GPU mining
+2021.03.05:01:40:29.326: main Eth: Connecting to ethash pool daggerhashimoto.hk.nicehash.com:3353 (proto: Nicehash)
+2021.03.05:01:40:29.327: main GPU0: 34C 0% 75W
+GPUs power: 74.8 W
+2021.03.05:01:40:29.534: main Listening for CDM remote manager at port 4001 in read-only mode
+2021.03.05:01:40:29.619: eths Eth: Connected to ethash pool daggerhashimoto.hk.nicehash.com:3353 (172.65.255.250)
+2021.03.05:01:40:29.619: eths Eth: Send: {"id":1,"method":"mining.subscribe","params":["PhoenixMiner/5.5c","EthereumStratum/1.0.0"]}
+
+2021.03.05:01:40:29.987: eths Eth: Received: {"id":1,"error":null,"result":[["mining.notify","83fa0f48b2ec0dfeae6a170977431915","EthereumStratum/1.0.0"],"e449f7"]}
+2021.03.05:01:40:29.989: eths Eth: Extranonce set to e449f7
+2021.03.05:01:40:29.989: eths Eth: Subscribed to ethash pool
+2021.03.05:01:40:29.989: eths Eth: Send: {"id":2,"method":"mining.extranonce.subscribe","params":[]}
+{"id":3,"method":"mining.authorize","params":["3NtMLaerK6FDgj4ib3Ho4xskhz3oEVZ5e9$0-YwadwCMfplWNvTfa1tKS6Q",""]}
+
+2021.03.05:01:40:30.249: eths Eth: Received: {"id":2,"result":true,"error":null}
+2021.03.05:01:40:30.249: eths Eth: Received: {"id":3,"result":true,"error":null}
+2021.03.05:01:40:30.249: eths Eth: Worker 3NtMLaerK6FDgj4ib3Ho4xskhz3oEVZ5e9$0-YwadwCMfplWNvTfa1tKS6Q authorized
+2021.03.05:01:40:30.249: eths Eth: Received: {"id":null,"method":"mining.set_difficulty","params":[0.213863]}
+2021.03.05:01:40:30.250: eths Eth: Difficulty set to 0.213863
+2021.03.05:01:40:30.250: eths Eth: Received: {"id":null,"method":"mining.notify","params":["000000006ed71380","d6498395558282bb98175e76b011ec4369047505dede459477becbeb202915dd","bb06a07d1a010eee7d4d4ab152d1ae56489ba3c9aeb005a94bd1033be39b9586",true]}
+2021.03.05:01:40:30.252: eths Eth: New job #bb06a07d from daggerhashimoto.hk.nicehash.com:3353; diff: 918MH
+2021.03.05:01:40:30.253: GPU0 GPU0: Starting up... (0)
+2021.03.05:01:40:30.253: GPU0 GPU0: Generating ethash light cache for epoch #399
+2021.03.05:01:40:32.524: GPU0 Light cache generated in 2.3 s (29.0 MB/s)
+2021.03.05:01:40:33.600: eths Eth: Received: {"id":null,"method":"mining.notify","params":["000000006ed71381","d6498395558282bb98175e76b011ec4369047505dede459477becbeb202915dd","825d07534aac8a6295eb13e607acddc3c1897d567a19d5e138a967cd2ac06af0",true]}
+2021.03.05:01:40:33.600: eths Eth: New job #825d0753 from daggerhashimoto.hk.nicehash.com:3353; diff: 918MH
+2021.03.05:01:40:33.777: GPU0 GPU0: Allocating DAG (4.13) GB; good for epoch up to #401
+2021.03.05:01:40:33.891: GPU0 GPU0: Generating DAG for epoch #399
+2021.03.05:01:40:34.465: main Eth speed: 0.000 MH/s, shares: 0/0/0, time: 0:00
+2021.03.05:01:40:35.014: eths Eth: Received: {"id":null,"method":"mining.notify","params":["000000006ed71382","d6498395558282bb98175e76b011ec4369047505dede459477becbeb202915dd","29b66304dedc1a4bb94df08e81c6a4be7ec1a417e20184681e779baf68caa79c",true]}
+2021.03.05:01:40:35.014: eths Eth: New job #29b66304 from daggerhashimoto.hk.nicehash.com:3353; diff: 918MH
+2021.03.05:01:40:35.419: GPU0 GPU0: DAG  34%
+2021.03.05:01:40:36.959: GPU0 GPU0: DAG  70%
+2021.03.05:01:40:38.155: GPU0 GPU0: DAG generated in 4.3 s (988.7 MB/s)
+2021.03.05:01:40:38.157: GPU0 GPU0: Using v2 Ethash CUDA kernels (GeForce RTX 3080)
+2021.03.05:01:40:39.638: main Eth speed: 93.664 MH/s, shares: 0/0/0, time: 0:00
+2021.03.05:01:40:40.102: eths Eth: Received: {"id":null,"method":"mining.notify","params":["000000006ed71383","d6498395558282bb98175e76b011ec4369047505dede459477becbeb202915dd","b5d4a2e30d21daf730ef110c502fb2f810fe89765e931e6b05c86c690e6e5b8b",true]}
+2021.03.05:01:40:40.102: eths Eth: New job #b5d4a2e3 from daggerhashimoto.hk.nicehash.com:3353; diff: 918MH
+2021.03.05:01:40:44.769: main Eth speed: 93.611 MH/s, shares: 0/0/0, time: 0:00
+2021.03.05:01:40:45.057: eths Eth: Received: {"id":null,"method":"mining.notify","params":["000000006ed71384","d6498395558282bb98175e76b011ec4369047505dede459477becbeb202915dd","e93347eca6a3ae7e578673716da4f64729ae8bf5af4a25152972c9f3b7954f3e",true]}
+2021.03.05:01:40:45.057: eths Eth: New job #e93347ec from daggerhashimoto.hk.nicehash.com:3353; diff: 918MH
+2021.03.05:01:40:49.908: main Eth speed: 93.635 MH/s, shares: 0/0/0, time: 0:00
+2021.03.05:01:40:50.002: eths Eth: Received: {"id":null,"method":"mining.notify","params":["000000006ed71385","d6498395558282bb98175e76b011ec4369047505dede459477becbeb202915dd","52f3b39216a1ab66b16c23a4973d4be1820abdf2cf99f116d0273690ad31ec29",true]}
+2021.03.05:01:40:50.002: eths Eth: New job #52f3b392 from daggerhashimoto.hk.nicehash.com:3353; diff: 918MH
+2021.03.05:01:40:54.327: GPU0 Eth: GPU0: ETH share found!
+2021.03.05:01:40:54.328: eths Eth: Send: {"id":4,"method":"mining.submit","params": ["3NtMLaerK6FDgj4ib3Ho4xskhz3oEVZ5e9$0-YwadwCMfplWNvTfa1tKS6Q","000000006ed71385","010c035239"]}
+
+2021.03.05:01:40:54.328: eths Eth: Share actual difficulty: 1149 MH
+2021.03.05:01:40:54.572: eths Eth: Received: {"id":4,"result":true,"error":null}
+2021.03.05:01:40:54.572: eths Eth: Share accepted in 245 ms
+2021.03.05:01:40:55.052: main Eth speed: 93.665 MH/s, shares: 1/0/0, time: 0:00
+2021.03.05:01:40:55.094: eths Eth: Received: {"id":null,"method":"mining.notify","params":["000000006ed71386","d6498395558282bb98175e76b011ec4369047505dede459477becbeb202915dd","fd04f95bc193e179d53966c4060d205fdb4e38aa00a270b8f00777918cb0d3a1",true]}
+2021.03.05:01:40:55.094: eths Eth: New job #fd04f95b from daggerhashimoto.hk.nicehash.com:3353; diff: 918MH
+2021.03.05:01:40:55.544: GPU0 Eth: GPU0: ETH share found!
+2021.03.05:01:40:55.544: eths Eth: Send: {"id":4,"method":"mining.submit","params": ["3NtMLaerK6FDgj4ib3Ho4xskhz3oEVZ5e9$0-YwadwCMfplWNvTfa1tKS6Q","000000006ed71386","01259485d8"]}
+
+2021.03.05:01:40:55.544: eths Eth: Share actual difficulty: 1506 MH
+2021.03.05:01:40:55.822: eths Eth: Received: {"id":4,"result":true,"error":null}
+2021.03.05:01:40:55.822: eths Eth: Share accepted in 278 ms
+2021.03.05:01:40:59.562: main GPU0: 51C 45% 296W
+GPUs power: 296.2 W
+2021.03.05:01:41:00.179: main Eth speed: 93.641 MH/s, shares: 2/0/0, time: 0:00
+2021.03.05:01:41:00.619: eths Eth: Received: {"id":null,"method":"mining.notify","params":["000000006ed71387","d6498395558282bb98175e76b011ec4369047505dede459477becbeb202915dd","251ab9fa21cffc530fb385aa899de165da171d85a7c7c3669beefd5d0a6754ca",true]}
+2021.03.05:01:41:00.619: eths Eth: New job #251ab9fa from daggerhashimoto.hk.nicehash.com:3353; diff: 918MH
+2021.03.05:01:41:02.994: eths Eth: Received: {"id":null,"method":"mining.notify","params":["000000006ed71388","d6498395558282bb98175e76b011ec4369047505dede459477becbeb202915dd","d88c392a974bee20f381305328149f378de3a72aeee67797a07ec195a79ef0f4",true]}
+2021.03.05:01:41:02.994: eths Eth: New job #d88c392a from daggerhashimoto.hk.nicehash.com:3353; diff: 918MH
+2021.03.05:01:41:05.310: main Eth speed: 93.610 MH/s, shares: 2/0/0, time: 0:00
+2021.03.05:01:41:06.716: GPU0 Eth: GPU0: ETH share found!
+2021.03.05:01:41:06.716: eths Eth: Send: {"id":4,"method":"mining.submit","params": ["3NtMLaerK6FDgj4ib3Ho4xskhz3oEVZ5e9$0-YwadwCMfplWNvTfa1tKS6Q","000000006ed71388","01e4b63eaf"]}
+
+2021.03.05:01:41:06.716: eths Eth: Share actual difficulty: 12.4 GH (!)
+2021.03.05:01:41:07.011: eths Eth: Received: {"id":4,"result":true,"error":null}
+2021.03.05:01:41:07.011: eths Eth: Share accepted in 295 ms
+2021.03.05:01:41:07.931: eths Eth: Received: {"id":null,"method":"mining.notify","params":["000000006ed71389","d6498395558282bb98175e76b011ec4369047505dede459477becbeb202915dd","b8e7611b567dd76d9a7cd463759f593011a130285beb30d16e88e23b3732e7ce",true]}
+2021.03.05:01:41:07.931: eths Eth: New job #b8e7611b from daggerhashimoto.hk.nicehash.com:3353; diff: 918MH
+2021.03.05:01:41:10.109: eths Eth: Received: {"id":null,"method":"mining.set_extranonce","params":["e31999"]}
+2021.03.05:01:41:10.109: eths Eth: Extranonce set to e31999
+2021.03.05:01:41:10.109: eths Eth: Received: {"id":null,"method":"mining.set_difficulty","params":[0.213863]}
+2021.03.05:01:41:10.109: eths Eth: Difficulty set to 0.213863
+2021.03.05:01:41:10.109: eths Eth: Received: {"id":null,"method":"mining.notify","params":["000000006ed7138a","d6498395558282bb98175e76b011ec4369047505dede459477becbeb202915dd","b8e7611b567dd76d9a7cd463759f593011a130285beb30d16e88e23b3732e7ce",true]}
+2021.03.05:01:41:10.435: main Eth speed: 93.615 MH/s, shares: 3/0/0, time: 0:00
+2021.03.05:01:41:13.010: eths Eth: Received: {"id":null,"method":"mining.notify","params":["000000006ed7138b","d6498395558282bb98175e76b011ec4369047505dede459477becbeb202915dd","18989ed94e5b3f39e9b5c70d7c65e387d0bc8561a593db238b3bcb1e2e4c80d0",true]}
+2021.03.05:01:41:13.010: eths Eth: New job #18989ed9 from daggerhashimoto.hk.nicehash.com:3353; diff: 918MH
+2021.03.05:01:41:14.332: main  
+2021.03.05:01:41:14.332: main *** 0:00 *** 3/5 01:41 **************************************
+2021.03.05:01:41:14.332: main Eth: Mining ETH on daggerhashimoto.hk.nicehash.com:3353 for 0:00
+2021.03.05:01:41:14.332: main Eth: Accepted shares 3 (0 stales), rejected shares 0 (0 stales)
+2021.03.05:01:41:14.332: main Eth: Incorrect shares 0 (0.00%), est. stales percentage 0.00% 
+2021.03.05:01:41:14.332: main Eth: Maximum difficulty of found share: 12.4 GH (!)
+2021.03.05:01:41:14.332: main Eth: Average speed (5 min): 0.000 MH/s
+2021.03.05:01:41:14.332: main  
+2021.03.05:01:41:15.561: main Eth speed: 93.594 MH/s, shares: 3/0/0, time: 0:00
+2021.03.05:01:41:17.973: eths Eth: Received: {"id":null,"method":"mining.notify","params":["000000006ed7138c","d6498395558282bb98175e76b011ec4369047505dede459477becbeb202915dd","c1a149bb8dd8bb6899a8e6a9c0c66415006f52a55f100a5696c2271a5ce79be7",true]}
+2021.03.05:01:41:17.973: eths Eth: New job #c1a149bb from daggerhashimoto.hk.nicehash.com:3353; diff: 918MH
+2021.03.05:01:41:20.704: main Eth speed: 93.592 MH/s, shares: 3/0/0, time: 0:00
+2021.03.05:01:41:22.993: eths Eth: Received: {"id":null,"method":"mining.notify","params":["000000006ed7138d","d6498395558282bb98175e76b011ec4369047505dede459477becbeb202915dd","9e167a69699c6a22d0bd1e2cec4cb207c89dfe897253a399b8b06da115fc37f2",true]}
+2021.03.05:01:41:22.993: eths Eth: New job #9e167a69 from daggerhashimoto.hk.nicehash.com:3353; diff: 918MH
+2021.03.05:01:41:25.841: main Eth speed: 93.599 MH/s, shares: 3/0/0, time: 0:00
+2021.03.05:01:41:27.929: eths Eth: Received: {"id":null,"method":"mining.notify","params":["000000006ed7138e","d6498395558282bb98175e76b011ec4369047505dede459477becbeb202915dd","ad5de9fa166fc4a888657787ef2ad7a2da70e5e217c32c6ce19a76b4760f177c",true]}
+2021.03.05:01:41:27.929: eths Eth: New job #ad5de9fa from daggerhashimoto.hk.nicehash.com:3353; diff: 918MH
+2021.03.05:01:41:29.747: main GPU0: 57C 58% 303W
+GPUs power: 302.7 W
+2021.03.05:01:41:30.016: GPU0 Eth: GPU0: ETH share found!
+2021.03.05:01:41:30.016: eths Eth: Send: {"id":4,"method":"mining.submit","params": ["3NtMLaerK6FDgj4ib3Ho4xskhz3oEVZ5e9$0-YwadwCMfplWNvTfa1tKS6Q","000000006ed7138e","010d341923"]}
+
+2021.03.05:01:41:30.016: eths Eth: Share actual difficulty: 944 MH
+2021.03.05:01:41:30.284: eths Eth: Received: {"id":4,"result":true,"error":null}
+2021.03.05:01:41:30.284: eths Eth: Share accepted in 268 ms
+2021.03.05:01:41:30.980: main Eth speed: 93.656 MH/s, shares: 4/0/0, time: 0:01
+2021.03.05:01:41:32.943: eths Eth: Received: {"id":null,"method":"mining.notify","params":["000000006ed7138f","d6498395558282bb98175e76b011ec4369047505dede459477becbeb202915dd","201468effb5027312e592d1263ad3712751b3cf371a6b56b7355561e34a23d83",true]}
+2021.03.05:01:41:32.943: eths Eth: New job #201468ef from daggerhashimoto.hk.nicehash.com:3353; diff: 918MH
+2021.03.05:01:41:36.123: main Eth speed: 93.625 MH/s, shares: 4/0/0, time: 0:01
+2021.03.05:01:41:37.963: eths Eth: Received: {"id":null,"method":"mining.notify","params":["000000006ed71390","d6498395558282bb98175e76b011ec4369047505dede459477becbeb202915dd","b0e26b0a9f6a1b34df9a3e86b8b56931f4d4d529dcbf2329bd3cac76fe43acb6",true]}
+2021.03.05:01:41:37.963: eths Eth: New job #b0e26b0a from daggerhashimoto.hk.nicehash.com:3353; diff: 918MH
+2021.03.05:01:41:41.309: main Eth speed: 93.639 MH/s, shares: 4/0/0, time: 0:01
+2021.03.05:01:41:42.323: eths Eth: Received: {"id":null,"method":"mining.notify","params":["000000006ed71391","d6498395558282bb98175e76b011ec4369047505dede459477becbeb202915dd","87295dedb70ca9d723e5fb9b18241ab9013ec6f2af8cc9f7189eecab9d589847",true]}
+2021.03.05:01:41:42.323: eths Eth: New job #87295ded from daggerhashimoto.hk.nicehash.com:3353; diff: 918MH
+2021.03.05:01:41:45.522: GPU0 Eth: GPU0: ETH share found!
+2021.03.05:01:41:45.522: eths Eth: Send: {"id":4,"method":"mining.submit","params": ["3NtMLaerK6FDgj4ib3Ho4xskhz3oEVZ5e9$0-YwadwCMfplWNvTfa1tKS6Q","000000006ed71391","0211f2cc7f"]}
+
+2021.03.05:01:41:45.522: eths Eth: Share actual difficulty: 1093 MH
+2021.03.05:01:41:45.785: eths Eth: Received: {"id":4,"result":true,"error":null}
+2021.03.05:01:41:45.785: eths Eth: Share accepted in 263 ms
+2021.03.05:01:41:46.453: main Eth speed: 93.632 MH/s, shares: 5/0/0, time: 0:01
+2021.03.05:01:41:47.258: eths Eth: Received: {"id":null,"method":"mining.notify","params":["000000006ed71392","d6498395558282bb98175e76b011ec4369047505dede459477becbeb202915dd","17f2f6e1b46ef7b9109b57da141f9b2a5a492fc27ed6fcdc8a0c06de295ec195",true]}
+2021.03.05:01:41:47.258: eths Eth: New job #17f2f6e1 from daggerhashimoto.hk.nicehash.com:3353; diff: 918MH
+2021.03.05:01:41:50.091: GPU0 Eth: GPU0: ETH share found!
+2021.03.05:01:41:50.091: eths Eth: Send: {"id":4,"method":"mining.submit","params": ["3NtMLaerK6FDgj4ib3Ho4xskhz3oEVZ5e9$0-YwadwCMfplWNvTfa1tKS6Q","000000006ed71392","025f870bb8"]}
+
+2021.03.05:01:41:50.091: eths Eth: Share actual difficulty: 922 MH
+2021.03.05:01:41:50.370: eths Eth: Received: {"id":4,"result":true,"error":null}
+2021.03.05:01:41:50.370: eths Eth: Share accepted in 279 ms
+2021.03.05:01:41:51.590: main Eth speed: 93.626 MH/s, shares: 6/0/0, time: 0:01
+2021.03.05:01:41:52.295: eths Eth: Received: {"id":null,"method":"mining.notify","params":["000000006ed71393","d6498395558282bb98175e76b011ec4369047505dede459477becbeb202915dd","8484ac8cf960c8de979d927ad8c1fbff3db510af871d138b0bda1a1c71a51250",true]}
+2021.03.05:01:41:52.295: eths Eth: New job #8484ac8c from daggerhashimoto.hk.nicehash.com:3353; diff: 918MH
+2021.03.05:01:41:54.758: GPU0 Eth: GPU0: ETH share found!
+2021.03.05:01:41:54.758: eths Eth: Send: {"id":4,"method":"mining.submit","params": ["3NtMLaerK6FDgj4ib3Ho4xskhz3oEVZ5e9$0-YwadwCMfplWNvTfa1tKS6Q","000000006ed71393","02b0d33a8d"]}
+
+2021.03.05:01:41:54.758: eths Eth: Share actual difficulty: 3936 MH
+2021.03.05:01:41:55.032: eths Eth: Received: {"id":4,"result":true,"error":null}
+2021.03.05:01:41:55.032: eths Eth: Share accepted in 274 ms
+2021.03.05:01:41:56.723: main Eth speed: 93.619 MH/s, shares: 7/0/0, time: 0:01
+2021.03.05:01:41:57.225: eths Eth: Received: {"id":null,"method":"mining.notify","params":["000000006ed71394","d6498395558282bb98175e76b011ec4369047505dede459477becbeb202915dd","490fc29861fb1db02297743d9e1acf435b0d39f6f35877230cf05e060abefe5e",true]}
+2021.03.05:01:41:57.225: eths Eth: New job #490fc298 from daggerhashimoto.hk.nicehash.com:3353; diff: 918MH
+2021.03.05:01:41:59.386: main  
+2021.03.05:01:41:59.386: main *** 0:01 *** 3/5 01:41 **************************************
+2021.03.05:01:41:59.386: main Eth: Mining ETH on daggerhashimoto.hk.nicehash.com:3353 for 0:01
+2021.03.05:01:41:59.386: main Eth: Accepted shares 7 (0 stales), rejected shares 0 (0 stales)
+2021.03.05:01:41:59.386: main Eth: Incorrect shares 0 (0.00%), est. stales percentage 0.00% 
+2021.03.05:01:41:59.386: main Eth: Maximum difficulty of found share: 12.4 GH (!)
+2021.03.05:01:41:59.386: main Eth: Average speed (5 min): 0.000 MH/s
+2021.03.05:01:41:59.386: main Eth: Effective speed: 71.44 MH/s; at pool: 71.44 MH/s
+2021.03.05:01:41:59.386: main  
+2021.03.05:01:41:59.793: main GPU0: 60C 63% 306W
+GPUs power: 306.1 W
+2021.03.05:01:41:59.848: GPU0 Eth: GPU0: ETH share found!
+2021.03.05:01:41:59.848: eths Eth: Send: {"id":4,"method":"mining.submit","params": ["3NtMLaerK6FDgj4ib3Ho4xskhz3oEVZ5e9$0-YwadwCMfplWNvTfa1tKS6Q","000000006ed71394","030a4514db"]}
+
+2021.03.05:01:41:59.848: eths Eth: Share actual difficulty: 2278 MH
+2021.03.05:01:42:00.087: eths Eth: Received: {"id":4,"result":true,"error":null}
+2021.03.05:01:42:00.087: eths Eth: Share accepted in 239 ms
+2021.03.05:01:42:01.839: main Eth speed: 93.597 MH/s, shares: 8/0/0, time: 0:01
+2021.03.05:01:42:02.219: eths Eth: Received: {"id":null,"method":"mining.notify","params":["000000006ed71395","d6498395558282bb98175e76b011ec4369047505dede459477becbeb202915dd","09f6a5bf9462534016c7a58cbe0b7e729030126777f56db82427119dc8d46a0f",true]}
+2021.03.05:01:42:02.219: eths Eth: New job #09f6a5bf from daggerhashimoto.hk.nicehash.com:3353; diff: 918MH
+2021.03.05:01:42:03.398: eths Eth: Received: {"id":null,"method":"mining.notify","params":["000000006ed71396","d6498395558282bb98175e76b011ec4369047505dede459477becbeb202915dd","03f588c96c655feeb799469f6fef1acaa31149c51ec5b3f29d11848d82a15db3",true]}
+2021.03.05:01:42:03.398: eths Eth: New job #03f588c9 from daggerhashimoto.hk.nicehash.com:3353; diff: 918MH
+2021.03.05:01:42:03.715: GPU0 Eth: GPU0: ETH share found!
+2021.03.05:01:42:03.715: eths Eth: Send: {"id":4,"method":"mining.submit","params": ["3NtMLaerK6FDgj4ib3Ho4xskhz3oEVZ5e9$0-YwadwCMfplWNvTfa1tKS6Q","000000006ed71396","035001a385"]}
+
+2021.03.05:01:42:03.715: eths Eth: Share actual difficulty: 1028 MH
+2021.03.05:01:42:04.415: eths Eth: Received: {"id":null,"method":"mining.notify","params":["000000006ed71397","d6498395558282bb98175e76b011ec4369047505dede459477becbeb202915dd","a5bab4aebdc7f957eef7054c065d13faf49a72de797673e6680d0780789fbd58",true]}
+2021.03.05:01:42:04.415: eths Eth: New job #a5bab4ae from daggerhashimoto.hk.nicehash.com:3353; diff: 918MH
+2021.03.05:01:42:04.415: eths Eth: Received: {"id":4,"result":false,"error":[2,"Job not found."]}
+2021.03.05:01:42:04.415: eths Eth: Share rejected in 700 ms
+2021.03.05:01:42:06.971: main Eth speed: 93.595 MH/s, shares: 8/1/0, time: 0:01
+2021.03.05:01:42:07.616: eths Eth: Received: {"id":null,"method":"mining.set_extranonce","params":["7ec7e8"]}
+2021.03.05:01:42:07.617: eths Eth: Extranonce set to 7ec7e8
+2021.03.05:01:42:07.617: eths Eth: Received: {"id":null,"method":"mining.set_difficulty","params":[0.213863]}
+2021.03.05:01:42:07.617: eths Eth: Difficulty set to 0.213863
+2021.03.05:01:42:07.617: eths Eth: Received: {"id":null,"method":"mining.notify","params":["000000006ed71398","d6498395558282bb98175e76b011ec4369047505dede459477becbeb202915dd","4ea2d6ebac0a04cecf5dc76743f79509228475f55cf9411074d47fba6d04e5e0",true]}
+2021.03.05:01:42:07.617: eths Eth: New job #4ea2d6eb from daggerhashimoto.hk.nicehash.com:3353; diff: 918MH
+2021.03.05:01:42:10.784: eths Eth: Received: {"id":null,"method":"mining.notify","params":["000000006ed71399","d6498395558282bb98175e76b011ec4369047505dede459477becbeb202915dd","15431266388d87a813c449af6de431c5f13bbfb20237fede762735bb3eef9b97",true]}
+2021.03.05:01:42:10.784: eths Eth: New job #15431266 from daggerhashimoto.hk.nicehash.com:3353; diff: 918MH
+2021.03.05:01:42:12.111: main Eth speed: 93.581 MH/s, shares: 8/1/0, time: 0:01
+2021.03.05:01:42:13.839: eths Eth: Received: {"id":null,"method":"mining.notify","params":["000000006ed7139a","d6498395558282bb98175e76b011ec4369047505dede459477becbeb202915dd","656a549830a6e6a9fb85b667e4e1efb5c00531f2fd3f98153f5217598a027b30",true]}
+2021.03.05:01:42:13.839: eths Eth: New job #656a5498 from daggerhashimoto.hk.nicehash.com:3353; diff: 918MH
+2021.03.05:01:42:13.839: eths Eth: Received: {"id":null,"method":"mining.notify","params":["000000006ed7139b","d6498395558282bb98175e76b011ec4369047505dede459477becbeb202915dd","6b1c92bfba4864042d2d8afcbe6c73e6e1bb6faec05f31f3b122953956d98023",true]}
+2021.03.05:01:42:13.839: eths Eth: New job #6b1c92bf from daggerhashimoto.hk.nicehash.com:3353; diff: 918MH
+2021.03.05:01:42:17.193: GPU0 Eth: GPU0: ETH share found!
+2021.03.05:01:42:17.193: eths Eth: Send: {"id":4,"method":"mining.submit","params": ["3NtMLaerK6FDgj4ib3Ho4xskhz3oEVZ5e9$0-YwadwCMfplWNvTfa1tKS6Q","000000006ed7139b","0092caf503"]}
+
+2021.03.05:01:42:17.193: eths Eth: Share actual difficulty: 1276 MH
+2021.03.05:01:42:17.246: main Eth speed: 93.560 MH/s, shares: 8/1/0, time: 0:01
+2021.03.05:01:42:17.466: eths Eth: Received: {"id":4,"result":true,"error":null}
+2021.03.05:01:42:17.466: eths Eth: Share accepted in 273 ms
+2021.03.05:01:42:18.745: eths Eth: Received: {"id":null,"method":"mining.notify","params":["000000006ed7139c","d6498395558282bb98175e76b011ec4369047505dede459477becbeb202915dd","3ff700b241252c124439e2a1fafd0e87b5c85227f1a5d083808ff40eb2fbef2f",true]}
+2021.03.05:01:42:18.745: eths Eth: New job #3ff700b2 from daggerhashimoto.hk.nicehash.com:3353; diff: 918MH
+2021.03.05:01:42:18.765: eths Eth: Received: {"id":null,"method":"mining.notify","params":["000000006ed7139d","d6498395558282bb98175e76b011ec4369047505dede459477becbeb202915dd","8b2c9ecf10dd994c0eb605b834947ffb6fc780be8b4a89daddb957c836768932",true]}
+2021.03.05:01:42:18.765: eths Eth: New job #8b2c9ecf from daggerhashimoto.hk.nicehash.com:3353; diff: 918MH
+2021.03.05:01:42:22.380: main Eth speed: 93.607 MH/s, shares: 9/1/0, time: 0:01
+2021.03.05:01:42:23.640: eths Eth: Received: {"id":null,"method":"mining.notify","params":["000000006ed7139e","d6498395558282bb98175e76b011ec4369047505dede459477becbeb202915dd","17f8d546c3b1a8ab1a0511f7cd352963e46232a017f3da31e590434ede3e3bc9",true]}
+2021.03.05:01:42:23.640: eths Eth: New job #17f8d546 from daggerhashimoto.hk.nicehash.com:3353; diff: 918MH
+2021.03.05:01:42:23.760: eths Eth: Received: {"id":null,"method":"mining.notify","params":["000000006ed7139f","d6498395558282bb98175e76b011ec4369047505dede459477becbeb202915dd","d54e097ec296dfb5cca9e41badc05de4f64a53791d4facbc0ca41e9ac451ce16",true]}
+2021.03.05:01:42:23.760: eths Eth: New job #d54e097e from daggerhashimoto.hk.nicehash.com:3353; diff: 918MH
+2021.03.05:01:42:25.221: eths Eth: Received: {"id":null,"method":"mining.notify","params":["000000006ed713a0","d6498395558282bb98175e76b011ec4369047505dede459477becbeb202915dd","b04ac3f07285d4cefb1904f9221642f10450295ffb7bd8c6efdaba6b0dad88e9",true]}
+2021.03.05:01:42:25.221: eths Eth: New job #b04ac3f0 from daggerhashimoto.hk.nicehash.com:3353; diff: 918MH
+2021.03.05:01:42:25.589: eths Eth: Received: {"id":null,"method":"mining.notify","params":["000000006ed713a1","d6498395558282bb98175e76b011ec4369047505dede459477becbeb202915dd","9d873a4b79cf8dfb4ab4b7523802ce1b0ecee2892b8e8b6d77c0de5afb84ef08",true]}
+2021.03.05:01:42:25.589: eths Eth: New job #9d873a4b from daggerhashimoto.hk.nicehash.com:3353; diff: 918MH
+2021.03.05:01:42:27.513: main Eth speed: 93.662 MH/s, shares: 9/1/0, time: 0:01
+2021.03.05:01:42:29.984: main GPU0: 61C 64% 308W
+GPUs power: 308.0 W
+2021.03.05:01:42:32.240: eths Eth: Received: {"id":null,"method":"mining.notify","params":["000000006ed713a2","d6498395558282bb98175e76b011ec4369047505dede459477becbeb202915dd","0b62af346d82ac548cab5993755bdda468ab670adfceda6c650e57367b8d4071",true]}
+2021.03.05:01:42:32.240: eths Eth: New job #0b62af34 from daggerhashimoto.hk.nicehash.com:3353; diff: 918MH
+2021.03.05:01:42:32.660: main Eth speed: 93.621 MH/s, shares: 9/1/0, time: 0:02
+2021.03.05:01:42:33.603: eths Eth: Received: {"id":null,"method":"mining.notify","params":["000000006ed713a3","d6498395558282bb98175e76b011ec4369047505dede459477becbeb202915dd","f443b403cf8222022f39d530dcd9c20bfefd1d91833403f6285889d16a1e52e7",true]}
+2021.03.05:01:42:33.603: eths Eth: New job #f443b403 from daggerhashimoto.hk.nicehash.com:3353; diff: 918MH
+2021.03.05:01:42:33.603: eths Eth: Received: {"id":null,"method":"mining.notify","params":["000000006ed713a4","d6498395558282bb98175e76b011ec4369047505dede459477becbeb202915dd","fb88e832810b7a2ce27f25a081a8529d7b98e923f02d924c47618c0ac89ebd0b",true]}
+2021.03.05:01:42:33.603: eths Eth: New job #fb88e832 from daggerhashimoto.hk.nicehash.com:3353; diff: 918MH
+2021.03.05:01:42:37.839: main Eth speed: 93.617 MH/s, shares: 9/1/0, time: 0:02
+2021.03.05:01:42:38.309: GPU0 Eth: GPU0: ETH share found!
+2021.03.05:01:42:38.309: eths Eth: Send: {"id":4,"method":"mining.submit","params": ["3NtMLaerK6FDgj4ib3Ho4xskhz3oEVZ5e9$0-YwadwCMfplWNvTfa1tKS6Q","000000006ed713a4","01f7a12fd5"]}
+
+2021.03.05:01:42:38.309: eths Eth: Share actual difficulty: 14.7 GH (!)
+2021.03.05:01:42:38.599: eths Eth: Received: {"id":4,"result":true,"error":null}
+2021.03.05:01:42:38.599: eths Eth: Share accepted in 290 ms
+2021.03.05:01:42:39.371: GPU0 Eth: GPU0: ETH share found!
+2021.03.05:01:42:39.371: eths Eth: Send: {"id":4,"method":"mining.submit","params": ["3NtMLaerK6FDgj4ib3Ho4xskhz3oEVZ5e9$0-YwadwCMfplWNvTfa1tKS6Q","000000006ed713a4","020c61aa7f"]}
+
+2021.03.05:01:42:39.371: eths Eth: Share actual difficulty: 1133 MH
+2021.03.05:01:42:39.617: eths Eth: Received: {"id":null,"method":"mining.notify","params":["000000006ed713a5","d6498395558282bb98175e76b011ec4369047505dede459477becbeb202915dd","97361fac9e3bb67581a4fd44c5e3d5e600da03adbb415d8f20a5367573e0a0c1",true]}
+2021.03.05:01:42:39.617: eths Eth: New job #97361fac from daggerhashimoto.hk.nicehash.com:3353; diff: 918MH
+2021.03.05:01:42:39.660: eths Eth: Received: {"id":4,"result":true,"error":null}
+2021.03.05:01:42:39.660: eths Eth: Share accepted in 289 ms
+2021.03.05:01:42:42.972: main Eth speed: 93.605 MH/s, shares: 11/1/0, time: 0:02
+2021.03.05:01:42:43.745: eths Eth: Received: {"id":null,"method":"mining.notify","params":["000000006ed713a6","d6498395558282bb98175e76b011ec4369047505dede459477becbeb202915dd","0db6bb7cdf96f639f12df9cc141d463e325752efb3cb7036bfcf7fe9d048580a",true]}
+2021.03.05:01:42:43.746: eths Eth: New job #0db6bb7c from daggerhashimoto.hk.nicehash.com:3353; diff: 918MH
+2021.03.05:01:42:44.238: eths Eth: Received: {"id":null,"method":"mining.notify","params":["000000006ed713a7","d6498395558282bb98175e76b011ec4369047505dede459477becbeb202915dd","c55996450c64a1638e269f82bca935e87a80618b7d75f07d67bfb5367d912ce6",true]}
+2021.03.05:01:42:44.238: eths Eth: New job #c5599645 from daggerhashimoto.hk.nicehash.com:3353; diff: 918MH
+2021.03.05:01:42:44.414: main  
+2021.03.05:01:42:44.414: main *** 0:02 *** 3/5 01:42 **************************************
+2021.03.05:01:42:44.415: main Eth: Mining ETH on daggerhashimoto.hk.nicehash.com:3353 for 0:02
+2021.03.05:01:42:44.415: main Eth: Accepted shares 11 (0 stales), rejected shares 1 (0 stales)
+2021.03.05:01:42:44.415: main Eth: Incorrect shares 0 (0.00%), est. stales percentage 0.00% 
+2021.03.05:01:42:44.415: main Eth: Maximum difficulty of found share: 14.7 GH (!)
+2021.03.05:01:42:44.415: main Eth: Average speed (5 min): 0.000 MH/s
+2021.03.05:01:42:44.415: main Eth: Effective speed: 81.65 MH/s; at pool: 74.84 MH/s
+2021.03.05:01:42:44.415: main  
+2021.03.05:01:42:48.105: main Eth speed: 93.612 MH/s, shares: 11/1/0, time: 0:02
+2021.03.05:01:42:50.068: GPU0 Eth: GPU0: ETH share found!
+2021.03.05:01:42:50.068: eths Eth: Send: {"id":4,"method":"mining.submit","params": ["3NtMLaerK6FDgj4ib3Ho4xskhz3oEVZ5e9$0-YwadwCMfplWNvTfa1tKS6Q","000000006ed713a7","02bf104a5c"]}
+
+2021.03.05:01:42:50.068: eths Eth: Share actual difficulty: 4925 MH
+2021.03.05:01:42:50.359: eths Eth: Received: {"id":4,"result":true,"error":null}
+2021.03.05:01:42:50.359: eths Eth: Share accepted in 291 ms
+2021.03.05:01:42:50.872: eths Eth: Received: {"id":null,"method":"mining.notify","params":["000000006ed713a8","d6498395558282bb98175e76b011ec4369047505dede459477becbeb202915dd","528448f3bfda4469c1e28d5428cf50b104add24dad54206e135a97263e10e1d0",true]}
+2021.03.05:01:42:50.872: eths Eth: New job #528448f3 from daggerhashimoto.hk.nicehash.com:3353; diff: 918MH
+2021.03.05:01:42:53.238: main Eth speed: 93.593 MH/s, shares: 12/1/0, time: 0:02
+2021.03.05:01:42:55.436: GPU0 Eth: GPU0: ETH share found!
+2021.03.05:01:42:55.436: eths Eth: Send: {"id":4,"method":"mining.submit","params": ["3NtMLaerK6FDgj4ib3Ho4xskhz3oEVZ5e9$0-YwadwCMfplWNvTfa1tKS6Q","000000006ed713a8","0318958987"]}
+
+2021.03.05:01:42:55.436: eths Eth: Share actual difficulty: 1000 MH
+2021.03.05:01:42:55.722: eths Eth: Received: {"id":4,"result":true,"error":null}
+2021.03.05:01:42:55.722: eths Eth: Share accepted in 286 ms
+2021.03.05:01:42:57.791: eths Eth: Received: {"id":null,"method":"mining.notify","params":["000000006ed713a9","d6498395558282bb98175e76b011ec4369047505dede459477becbeb202915dd","5d9d81bb880ffd069d941d849a52ec804fea3f61fab976b530b2f4a065f1682c",true]}
+2021.03.05:01:42:57.791: eths Eth: New job #5d9d81bb from daggerhashimoto.hk.nicehash.com:3353; diff: 918MH
+2021.03.05:01:42:58.359: main Eth speed: 93.617 MH/s, shares: 13/1/0, time: 0:02
+2021.03.05:01:43:00.201: main GPU0: 62C 65% 309W
+GPUs power: 308.5 W
+2021.03.05:01:43:03.020: eths Eth: Received: {"id":null,"method":"mining.set_extranonce","params":["027b15"]}
+2021.03.05:01:43:03.020: eths Eth: Extranonce set to 027b15
+2021.03.05:01:43:03.020: eths Eth: Received: {"id":null,"method":"mining.set_difficulty","params":[0.213863]}
+2021.03.05:01:43:03.020: eths Eth: Difficulty set to 0.213863
+2021.03.05:01:43:03.020: eths Eth: Received: {"id":null,"method":"mining.notify","params":["000000006ed713aa","d6498395558282bb98175e76b011ec4369047505dede459477becbeb202915dd","d743fc010c9a8c3780fbe2d3e97936833fad72fc9027d6208de5d470830bc6c4",true]}
+2021.03.05:01:43:03.020: eths Eth: New job #d743fc01 from daggerhashimoto.hk.nicehash.com:3353; diff: 918MH
+2021.03.05:01:43:03.492: main Eth speed: 93.618 MH/s, shares: 13/1/0, time: 0:02
+2021.03.05:01:43:04.262: GPU0 Eth: GPU0: ETH share found!
+2021.03.05:01:43:04.262: eths Eth: Send: {"id":4,"method":"mining.submit","params": ["3NtMLaerK6FDgj4ib3Ho4xskhz3oEVZ5e9$0-YwadwCMfplWNvTfa1tKS6Q","000000006ed713aa","000878afa9"]}
+
+2021.03.05:01:43:04.262: eths Eth: Share actual difficulty: 1060 MH
+2021.03.05:01:43:04.560: eths Eth: Received: {"id":null,"method":"mining.notify","params":["000000006ed713ab","d6498395558282bb98175e76b011ec4369047505dede459477becbeb202915dd","9bc33e277b075356efa256b0b4253eee0ce4fb42a2bcadede01f092f85e7ffc8",true]}
+2021.03.05:01:43:04.560: eths Eth: New job #9bc33e27 from daggerhashimoto.hk.nicehash.com:3353; diff: 918MH
+2021.03.05:01:43:04.600: eths Eth: Received: {"id":4,"result":true,"error":null}
+2021.03.05:01:43:04.600: eths Eth: Share accepted in 338 ms
+2021.03.05:01:43:05.990: GPU0 Eth: GPU0: ETH share found!
+2021.03.05:01:43:05.990: eths Eth: Send: {"id":4,"method":"mining.submit","params": ["3NtMLaerK6FDgj4ib3Ho4xskhz3oEVZ5e9$0-YwadwCMfplWNvTfa1tKS6Q","000000006ed713ab","00274e3f12"]}
+
+2021.03.05:01:43:05.990: eths Eth: Share actual difficulty: 1928 MH
+2021.03.05:01:43:06.265: eths Eth: Received: {"id":4,"result":true,"error":null}
+2021.03.05:01:43:06.265: eths Eth: Share accepted in 275 ms
+2021.03.05:01:43:08.622: main Eth speed: 91.513 MH/s, shares: 15/1/0, time: 0:02
+2021.03.05:01:43:11.619: eths Eth: Received: {"id":null,"method":"mining.notify","params":["000000006ed713ac","d6498395558282bb98175e76b011ec4369047505dede459477becbeb202915dd","9c83db21b38f2347858ebed0ce7e9f75016bf2e637104edf4f3e3f199def930d",true]}
+2021.03.05:01:43:11.619: eths Eth: New job #9c83db21 from daggerhashimoto.hk.nicehash.com:3353; diff: 918MH
+2021.03.05:01:43:13.762: main Eth speed: 91.739 MH/s, shares: 15/1/0, time: 0:02
+2021.03.05:01:43:18.515: eths Eth: Received: {"id":null,"method":"mining.notify","params":["000000006ed713ad","d6498395558282bb98175e76b011ec4369047505dede459477becbeb202915dd","2880d1e1e342ee70d1937d79810f9e563421ec64bb90cfc75aa89679409a9fe0",true]}
+2021.03.05:01:43:18.515: eths Eth: New job #2880d1e1 from daggerhashimoto.hk.nicehash.com:3353; diff: 918MH
+2021.03.05:01:43:18.902: main Eth speed: 93.625 MH/s, shares: 15/1/0, time: 0:02
+2021.03.05:01:43:23.309: unkn Quitting...
+2021.03.05:01:43:23.753: main Exit code: 0

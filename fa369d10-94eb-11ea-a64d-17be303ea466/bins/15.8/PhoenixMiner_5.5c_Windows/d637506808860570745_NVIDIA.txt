@@ -1,0 +1,8 @@
+Phoenix Miner 5.5c Windows/msvc - Release build
+-----------------------------------------------
+
+CUDA version: 11.0, CUDA runtime: 8.0
+Available GPUs for mining:
+GPU0: GeForce RTX 3080 (pcie 1), CUDA cap. 8.6, 10 GB VRAM, 68 CUs
+GPU1: GeForce RTX 3070 (pcie 2), CUDA cap. 8.6, 8 GB VRAM, 46 CUs
+GPU2: GeForce RTX 3070 (pcie 5), CUDA cap. 8.6, 8 GB VRAM, 46 CUs

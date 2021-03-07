@@ -1,0 +1,40 @@
+2021.03.05:01:34:05.283: main Phoenix Miner 5.5c Windows/msvc - Release build
+2021.03.05:01:34:05.283: main Cmd line: -pool stratum+tcp://daggerhashimoto.hk.nicehash.com:3353 -wal 3NtMLaerK6FDgj4ib3Ho4xskhz3oEVZ5e9$0-YwadwCMfplWNvTfa1tKS6Q -proto 4 -nvidia -gpus 0 -wdog 0 -gbase 0 -stales 0 -mport 127.0.0.1:-4001 
+2021.03.05:01:34:05.347: main CUDA version: 11.0, CUDA runtime: 8.0
+2021.03.05:01:34:05.347: main Available GPUs for mining:
+2021.03.05:01:34:05.347: main GPU0: GeForce RTX 3080 (pcie 1), CUDA cap. 8.6, 10 GB VRAM, 68 CUs
+2021.03.05:01:34:05.354: main NVML library initialized
+2021.03.05:01:34:05.385: main Nvidia driver version: 461.40
+2021.03.05:01:34:05.479: main Eth: the pool list contains 1 pool (1 from command-line)
+2021.03.05:01:34:05.479: main Eth: primary pool: daggerhashimoto.hk.nicehash.com:3353
+2021.03.05:01:34:05.480: main Starting GPU mining
+2021.03.05:01:34:05.603: main Eth: Connecting to ethash pool daggerhashimoto.hk.nicehash.com:3353 (proto: Nicehash)
+2021.03.05:01:34:05.604: main GPU0: 44C 0% 28W
+GPUs power: 28.1 W
+2021.03.05:01:34:05.809: main Listening for CDM remote manager at port 4001 in read-only mode
+2021.03.05:01:34:05.897: eths Eth: Connected to ethash pool daggerhashimoto.hk.nicehash.com:3353 (172.65.255.250)
+2021.03.05:01:34:05.897: eths Eth: Send: {"id":1,"method":"mining.subscribe","params":["PhoenixMiner/5.5c","EthereumStratum/1.0.0"]}
+
+2021.03.05:01:34:06.298: eths Eth: Received: {"id":1,"error":null,"result":[["mining.notify","69c9126c78b597af387fbc7db03d0e24","EthereumStratum/1.0.0"],"f5b314"]}
+2021.03.05:01:34:06.301: eths Eth: Extranonce set to f5b314
+2021.03.05:01:34:06.301: eths Eth: Subscribed to ethash pool
+2021.03.05:01:34:06.301: eths Eth: Send: {"id":2,"method":"mining.extranonce.subscribe","params":[]}
+{"id":3,"method":"mining.authorize","params":["3NtMLaerK6FDgj4ib3Ho4xskhz3oEVZ5e9$0-YwadwCMfplWNvTfa1tKS6Q",""]}
+
+2021.03.05:01:34:06.592: eths Eth: Received: {"id":2,"result":true,"error":null}
+2021.03.05:01:34:06.592: eths Eth: Received: {"id":3,"result":true,"error":null}
+2021.03.05:01:34:06.592: eths Eth: Worker 3NtMLaerK6FDgj4ib3Ho4xskhz3oEVZ5e9$0-YwadwCMfplWNvTfa1tKS6Q authorized
+2021.03.05:01:34:06.592: eths Eth: Received: {"id":null,"method":"mining.set_difficulty","params":[0.213863]}
+2021.03.05:01:34:06.593: eths Eth: Difficulty set to 0.213863
+2021.03.05:01:34:06.593: eths Eth: Received: {"id":null,"method":"mining.notify","params":["0000000063cead27","d6498395558282bb98175e76b011ec4369047505dede459477becbeb202915dd","952ded164291d4b84ff595925e62973f53b5bfd3b3c67c6d1eaf7f9ee5b0fce1",true]}
+2021.03.05:01:34:06.595: eths Eth: New job #952ded16 from daggerhashimoto.hk.nicehash.com:3353; diff: 918MH
+2021.03.05:01:34:06.596: GPU0 GPU0: Starting up... (0)
+2021.03.05:01:34:06.596: GPU0 GPU0: Generating ethash light cache for epoch #399
+2021.03.05:01:34:07.634: eths Eth: Received: {"id":null,"method":"mining.notify","params":["0000000063cead28","d6498395558282bb98175e76b011ec4369047505dede459477becbeb202915dd","a23545826f693c5fc5347ecea32c9c25ed242bde5894da83c9a6eb88eae7ffc7",true]}
+2021.03.05:01:34:07.634: eths Eth: New job #a2354582 from daggerhashimoto.hk.nicehash.com:3353; diff: 918MH
+2021.03.05:01:34:08.848: unkn Quitting...
+2021.03.05:01:34:08.887: GPU0 Light cache generated in 2.3 s (28.8 MB/s)
+2021.03.05:01:34:10.426: GPU0 GPU0: Allocating DAG (4.13) GB; good for epoch up to #401
+2021.03.05:01:34:10.547: GPU0 GPU0: Generating DAG for epoch #399
+2021.03.05:01:34:10.626: GPU0 GPU0 initMiner error: Unable to initialize CUDA miner
+2021.03.05:01:34:10.627: GPU0 Fatal error detected. Restarting.

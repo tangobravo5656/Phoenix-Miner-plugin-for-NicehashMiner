@@ -1,0 +1,16 @@
+2021.02.05:23:24:33.807: main Phoenix Miner 5.5c Windows/msvc - Release build
+2021.02.05:23:24:33.807: main Cmd line: -pool stratum+tcp://daggerhashimoto.hk.nicehash.com:3353 -wal 3NtMLaerK6FDgj4ib3Ho4xskhz3oEVZ5e9$0-YaTyKMIO31GC+Hb79B28qw -proto 4 -nvidia -gpus 0 -wdog 0 -gbase 0 -stales 0 -mport 127.0.0.1:-4000 
+2021.02.05:23:24:33.865: main CUDA version: 11.0, CUDA runtime: 8.0
+2021.02.05:23:24:33.865: main Available GPUs for mining:
+2021.02.05:23:24:33.865: main GPU0: GeForce RTX 3080 (pcie 1), CUDA cap. 8.6, 10 GB VRAM, 68 CUs
+2021.02.05:23:24:33.869: main NVML library initialized
+2021.02.05:23:24:33.897: main Nvidia driver version: 461.40
+2021.02.05:23:24:34.001: main Eth: the pool list contains 1 pool (1 from command-line)
+2021.02.05:23:24:34.001: main Eth: primary pool: daggerhashimoto.hk.nicehash.com:3353
+2021.02.05:23:24:34.002: main Starting GPU mining
+2021.02.05:23:24:34.133: main Eth: Connecting to ethash pool daggerhashimoto.hk.nicehash.com:3353 (proto: Nicehash)
+2021.02.05:23:24:34.133: main GPU0: 52C 42% 23W
+GPUs power: 23.3 W
+2021.02.05:23:24:34.338: main Unable to start CDM server at port 4000: 通常每个套接字地址(协议/网络地址/端口)只允许使用一次。 (10048)
+2021.02.05:23:24:36.498: unkn Quitting...
+2021.02.05:23:24:36.594: main Exit code: 0
